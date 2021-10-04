@@ -14,6 +14,16 @@ if [ -d "$BBB_WEBROOT/integrations" ];then
     wget -O "$BBB_WEBROOT/integrations/bbb-jamboard.js" https://raw.githubusercontent.com/manishkatyan/bbb-jamboard/main/bbb-jamboard.js
 fi
 
-sed -i "s/<\/body>/<script src=\"https:\/\/$BBB_SERVER_URL\/integrations\/bbb-jamboard.js\"><\/script><\/body>/g" $HEAD_HTML
 
-sed -i "s/<\/body>/<script src=\"https:\/\/$BBB_SERVER_URL\/integrations\/bbb-jamboard.js\"><\/script><\/body>/g" $HEAD_HTML_LEGACY
+if grep -Fxq "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js\"></script>" $HEAD_HTML
+then
+   echo "Found Jamboard integration at $HEAD_HTML"
+else
+    echo "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js\"></script>" >>  $HEAD_HTML
+fi
+if grep -Fxq "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js\"></script>" $HEAD_HTML_LEGACY
+then
+   echo "Found Jamboard integration at $HEAD_HTML_LEGACY"
+else
+    echo "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js\"></script>" >>  $HEAD_HTML_LEGACY
+fi
