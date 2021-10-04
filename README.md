@@ -4,7 +4,11 @@ Google Jamboard has the eraser feature that has often been requested by BigBlueB
 
 # How to use
 
-### Please run the following command
+### Please run the following command to install bbb-jamboard
+`bash <(curl -s https://raw.githubusercontent.com/manishkatyan/bbb-jamboard/main/deploy-integration.sh)`
 
-`bash <(curl -s https://raw.githubusercontent.com/manishkatyan/bbb-jamboard/main/deployIntegratons.sh)`
 
+### Uninstall
+
+`mv /usr/share/meteor/bundle/programs/web.browser/head.html.default /usr/share/meteor/bundle/programs/web.browser/head.html`
+`mv /usr/share/meteor/bundle/programs/web.browser.legacy/head.html.default /usr/share/meteor/bundle/programs/web.browser.legacy/head.html`
