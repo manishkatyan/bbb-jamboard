@@ -32,6 +32,7 @@ if grep -Fxq "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js
 then
    echo "Found Jamboard integration at $HEAD_HTML"
 else
+     echo "Installing bbb-jamboard at $HEAD_HTML"
     echo "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js\"></script>" >>  $HEAD_HTML
 fi
 
@@ -39,5 +40,9 @@ if grep -Fxq "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js
 then
    echo "Found Jamboard integration at $HEAD_HTML_LEGACY"
 else
+    echo "Installing bbb-jamboard at $HEAD_HTML_LEGACY"
     echo "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js\"></script>" >>  $HEAD_HTML_LEGACY
 fi
+
+
+echo "==== Please restart your bigbluebutton server with: bbb-conf --restart ===="
