@@ -11,4 +11,5 @@ Google Jamboard has the eraser feature that has often been requested by BigBlueB
 ### Uninstall
 
 `mv /usr/share/meteor/bundle/programs/web.browser/head.html.default /usr/share/meteor/bundle/programs/web.browser/head.html`
+
 `mv /usr/share/meteor/bundle/programs/web.browser.legacy/head.html.default /usr/share/meteor/bundle/programs/web.browser.legacy/head.html`
