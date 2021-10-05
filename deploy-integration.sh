@@ -17,14 +17,14 @@ if [ -d "$BBB_WEBROOT/integrations" ];then
 fi
 
 #Backup default files
-if [ ! -f $HEAD_HTML_DEFAULT ];then
+if [ ! -f "$HEAD_HTML_DEFAULT" ];then
     echo "Backing up Default $HEAD_HTML"
-    cp $HEAD_HTML $HEAD_HTML_DEFAULT
+    cp "$HEAD_HTML" "$HEAD_HTML_DEFAULT"
 fi
 
-if [ ! -f $HEAD_HTML_LEGACY_DEFAULT ];then
+if [ ! -f "$HEAD_HTML_LEGACY_DEFAULT" ];then
     echo "Backing up Default $HEAD_HTML_LEGACY"
-    cp $HEAD_HTML_LEGACY $HEAD_HTML_LEGACY_DEFAULT
+    cp "$HEAD_HTML_LEGACY" "$HEAD_HTML_LEGACY_DEFAULT"
 fi
 
 
