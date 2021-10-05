@@ -18,15 +18,14 @@ fi
 
 #Backup default files
 if [ ! -f "$HEAD_HTML_DEFAULT" ];then
-    echo "Backing up Default $HEAD_HTML"
+    echo "Creating a copy of $HEAD_HTML at $HEAD_HTML_DEFAULT"
     cp $HEAD_HTML $HEAD_HTML_DEFAULT
 fi
 
 if [ ! -f "$HEAD_HTML_LEGACY_DEFAULT" ];then
-    echo "Backing up Default $HEAD_HTML_LEGACY"
+    echo "Creating a copy of $HEAD_HTML_LEGACY at $HEAD_HTML_LEGACY_DEFAULT"
     cp "$HEAD_HTML_LEGACY" "$HEAD_HTML_LEGACY_DEFAULT"
 fi
-
 
 #Add bbb-jamboard Integration
 if grep -Fxq "<script src=\"https://$BBB_SERVER_URL/integrations/bbb-jamboard.js\"></script>" $HEAD_HTML
