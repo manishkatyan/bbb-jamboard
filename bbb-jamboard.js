@@ -8,7 +8,8 @@ const checkElement = async selector => {
   
   async function addJamboard(){
     const layout = await checkElement("#layout")
-    if(layout){
+    const moderator =  document.querySelector('button[aria-label="Share your screen"]')
+    if(layout  && moderator){
       var element = document.querySelector('ul[class^=MuiList-root]');
       var li = document.createElement("li")
       var a = document.createElement("a")
