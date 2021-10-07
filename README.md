@@ -3,7 +3,11 @@ Integrate Google Jamboard into BigBlueButton. Jamboard is a digital interactive 
 Google Jamboard has the eraser feature that has often been requested by BigBlueButton users. 
 
 ## How to Use
+
+The screencast below shows how you can launch Google JamBaord from within a BigBlueButton session. 
+
 <img src="https://higheredlab.com/wp-content/uploads/bbb-jamboard-latest.gif"/>
+
 
 ## How to Install
 
