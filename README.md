@@ -1,6 +1,12 @@
 # bbb-jamboard
-Integrate Google Jamboard into BigBlueButton. Jamboard is a digital interactive whiteboard developed by Google and can be used in stead of the default BugBlueButton whiteboard. 
-Google Jamboard has the eraser feature that has often been requested by BigBlueButton users. 
+
+The default whiteboard of BigBlueButton has limited features including no eraser. Many teachers wish to have a more features-rich whiteboard that would help them better in conducting online classes. 
+
+Well, we have an excellent solution!
+
+With this project, you can easily integrate Google Jamboard into your BigBlueButton server. 
+
+Jamboard is a digital interactive whiteboard developed by Google and can be used in stead of the default BugBlueButton whiteboard. Google Jamboard has the eraser feature that has often been requested by BigBlueButton users. 
 
 ## How to Use
 
