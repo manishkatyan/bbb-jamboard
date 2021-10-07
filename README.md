@@ -11,11 +11,14 @@ The screencast below shows how you can launch Google JamBaord from within a BigB
 
 ## How to Install
 
-### Please run the following command to install bbb-jamboard
+Please run the following command to install bbb-jamboard
+
 `bash <(curl -s https://raw.githubusercontent.com/manishkatyan/bbb-jamboard/main/deploy-integration.sh)`
 
 
-### How to Uninstall
+## How to Uninstall
+
+In case you change your mind, here is how to uninstall bbb-jamboard: 
 
 `mv /usr/share/meteor/bundle/programs/web.browser/head.html.default /usr/share/meteor/bundle/programs/web.browser/head.html`
 
