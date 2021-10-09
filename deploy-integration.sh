@@ -17,7 +17,7 @@ if [ -d "$BBB_WEBROOT/integrations" ];then
 fi
 
 echo "Detected BBB_VERSION: $BBB_VERSION"
-sed -i "s/bbb_server_version=.*/bbb_server_version=$BBB_VERSION/g" "$BBB_WEBROOT/integrations/bbb-jamboard.js"
+sed -i "s/bbb_server_version=BBB_VERSION/bbb_server_version=\"$BBB_VERSION\"/g" "$BBB_WEBROOT/integrations/bbb-jamboard.js"
 
 #Backup default files
 if [ ! -f "$HEAD_HTML_DEFAULT" ];then
