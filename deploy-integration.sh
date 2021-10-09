@@ -5,7 +5,7 @@ HEAD_HTML_DEFAULT="/usr/share/meteor/bundle/programs/web.browser/head.html.defau
 HEAD_HTML_LEGACY="/usr/share/meteor/bundle/programs/web.browser.legacy/head.html"
 HEAD_HTML_LEGACY_DEFAULT="/usr/share/meteor/bundle/programs/web.browser.legacy/head.html.default"
 BBB_WEBROOT="/var/www/bigbluebutton-default"
-
+BBB_VERSION="$(cat /etc/bigbluebutton/bigbluebutton-release | cut -d "=" -f 2)
 
 if [  ! -d "$BBB_WEBROOT/integrations" ];then
     mkdir -p "$BBB_WEBROOT/integrations"
@@ -15,6 +15,9 @@ fi
 if [ -d "$BBB_WEBROOT/integrations" ];then
     wget -O "$BBB_WEBROOT/integrations/bbb-jamboard.js" https://raw.githubusercontent.com/manishkatyan/bbb-jamboard/main/bbb-jamboard.js
 fi
+
+echo "Detected BBB_VERSION: $BBB_VERSION"
+sed -i "s/bbb_server_version=.*/bbb_server_version=$BBB_VERSION/g" "$BBB_WEBROOT/integrations/bbb-jamboard.js"
 
 #Backup default files
 if [ ! -f "$HEAD_HTML_DEFAULT" ];then
