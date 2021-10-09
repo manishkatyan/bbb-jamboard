@@ -5,7 +5,7 @@ HEAD_HTML_DEFAULT="/usr/share/meteor/bundle/programs/web.browser/head.html.defau
 HEAD_HTML_LEGACY="/usr/share/meteor/bundle/programs/web.browser.legacy/head.html"
 HEAD_HTML_LEGACY_DEFAULT="/usr/share/meteor/bundle/programs/web.browser.legacy/head.html.default"
 BBB_WEBROOT="/var/www/bigbluebutton-default"
-BBB_VERSION="$(cat /etc/bigbluebutton/bigbluebutton-release | cut -d "=" -f 2)
+BBB_VERSION=$(cat /etc/bigbluebutton/bigbluebutton-release | cut -d "=" -f 2)
 
 if [  ! -d "$BBB_WEBROOT/integrations" ];then
     mkdir -p "$BBB_WEBROOT/integrations"
