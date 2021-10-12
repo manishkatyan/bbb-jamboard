@@ -12,7 +12,7 @@ Jamboard is a digital interactive whiteboard developed by Google and can be used
 
 The screencast below shows how you can launch Google JamBaord from within a BigBlueButton session. 
 
-<img src="https://higheredlab.com/wp-content/uploads/bbb-jamboard-latest.gif"/>
+<img src="https://bbb1.asyncweb.io/recording/bbb-jamboard.gif"/>
 
 
 ## How to Install
