@@ -8,6 +8,12 @@ With this project, you can easily integrate Google Jamboard into your BigBlueBut
 
 Jamboard is a digital interactive whiteboard developed by Google and can be used in stead of the default BugBlueButton whiteboard. Google Jamboard has the eraser feature that has often been requested by BigBlueButton users. 
 
+## Key Features
+
+1. Works for BigBlueButton 2.3 and 2.4 versions
+2. Works with BigBlueButtin recording
+3. Can easily be stored and shares for later references
+
 ## How to Use
 
 The screencast below shows how you can launch Google JamBaord from within a BigBlueButton session. 
