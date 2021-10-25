@@ -2,7 +2,9 @@
 
 The default whiteboard of BigBlueButton has limited features including no eraser. Many teachers wish to have a more features-rich whiteboard that would help them better in conducting online classes. 
 
-Well, we have an excellent solution!
+BigBlueButton core team is working to improve the Whiteboard feature. Quoting Fred Dixon, "we've got plans to improve the whiteboard (eraser, editing/moving objects, etc.) in future updates.  I think with some specific updates, we could get BigBlueButton closer to what others are looking for in a whiteboard with full support for recording".
+
+In the meantime, we have an excellent alternative solution!
 
 With bbb-jamboard, you can easily integrate Google Jamboard into your BigBlueButton server. 
 
