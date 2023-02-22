@@ -72,6 +72,8 @@ Integrate Twilio into BigBlueButton so that users can join a meeting with a dial
 
 ### [bbb-mp4](https://github.com/manishkatyan/bbb-mp4)
 
+With this app, you can convert a BigBlueButton recording into MP4 video and upload to S3. You can covert multiple MP4 videos in parallel or automate the conversion process.
+
 ### [bigbluebutton-chatgpt](https://github.com/AsyncWeb/bigbluebutton-chatgpt)
 
 Use ChatGPT to improve your BigBlueButton online classes. With this app you can ask questions to chatgpt and get response in public chat.
