@@ -78,8 +78,6 @@ With this app, you can convert a BigBlueButton recording into MP4 video and uplo
 
 Use ChatGPT to improve your BigBlueButton online classes. With this app you can ask questions to chatgpt and get response in public chat.
 
-With this app, you can convert a BigBlueButton recording into MP4 video and upload to S3. You can covert multiple MP4 videos in parallel or automate the conversion process.
-
 ### [bbb-streaming](https://github.com/manishkatyan/bbb-streaming)
 
 Livestream your BigBlueButton classes on Youtube or Facebook to thousands of your users.
