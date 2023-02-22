@@ -38,14 +38,29 @@ In case you change your mind, here is how to uninstall bbb-jamboard:
 
 `mv /usr/share/meteor/bundle/programs/web.browser.legacy/head.html.default /usr/share/meteor/bundle/programs/web.browser.legacy/head.html`
 
-## [BigBlueButton Tech Support](https://higheredlab.com/bigbluebutton-support/)
-### Are you facing difficulties with your BigBlueButton server?
-Lean on our expertise to smoothly run your BigBlueButton server. We can: 
-1. troubleshoot your BigBlueButton servers to improve audio and video performance,
-1. install additional features such as streaming, mp4 recordings and attendance, and
-1. provide managed BigBlueButton servers, starting at $12 per month
+## Artificial Intelligence powered Online Classes on BigBlueButton
+Use live transcription, speech-to-speech translation and class notes with topics, summaries and sentiment analysis to guarantee the success of your online classes
 
-[Click here to learn more](https://higheredlab.com/bigbluebutton-support/)
+### Transcription [DEMO](https://higheredlab.com/)
+Help your students understand better by providing automated class notes
+1. MP4 class recordings with subtitles
+2. Full transcription of the class with topics, summary and sentiments
+
+### Translation [DEMO](https://higheredlab.com/)
+Speech-to-speech translate your classes in real-time into 100+ languages
+1. Hear real-time translation of the class in any of 100+ language such as French, Spanish and German
+2. View the captions in translated languages
+
+## BigBlueButton-as-a-Service
+
+Everything you need for online classes at scale on BigBlueButton, starting at $12 / month:
+1. HD video
+2. View attendance
+3. Stream on YouTube
+4. Integrate with Moodle
+5. Upgrade/cancel anytime
+
+[Click here to get started](https://higheredlab.com/pricing/)
 
 ## More on BigBlueButton
 
@@ -56,6 +71,10 @@ Check-out the following apps to further extend features of BBB.
 Integrate Twilio into BigBlueButton so that users can join a meeting with a dial-in number. You can get local numbers for almost all the countries.
 
 ### [bbb-mp4](https://github.com/manishkatyan/bbb-mp4)
+
+### [bigbluebutton-chatgpt](https://github.com/AsyncWeb/bigbluebutton-chatgpt)
+
+Use ChatGPT to improve your BigBlueButton online classes. With this app you can ask questions to chatgpt and get response in public chat.
 
 With this app, you can convert a BigBlueButton recording into MP4 video and upload to S3. You can covert multiple MP4 videos in parallel or automate the conversion process.
 
